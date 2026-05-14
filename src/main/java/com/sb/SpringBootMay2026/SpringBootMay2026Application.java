@@ -8,19 +8,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootMay2026Application implements CommandLineRunner {
+public class SpringBootMay2026Application {
 
-    @Autowired
-    private Animal animal;
 
     public static void main(String[] args) {
         SpringApplication.run(SpringBootMay2026Application.class, args);
     }
 
-
-    @Override
-    public void run(String... args) throws Exception {
-        animal.print();
-    }
 
 }
