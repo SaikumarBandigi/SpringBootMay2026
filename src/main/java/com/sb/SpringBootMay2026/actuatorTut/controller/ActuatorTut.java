@@ -77,4 +77,9 @@ Debugging live applications
 Observability (metrics + logs + tracing)
 DevOps integration (Prometheus, Grafana)
 
+Simple interview definition
+
+Spring Boot Actuator provides production-ready features like health checks, metrics, and monitoring endpoints
+to manage applications easily at runtime.
+
  */
