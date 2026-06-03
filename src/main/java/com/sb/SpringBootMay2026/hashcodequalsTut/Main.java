@@ -55,5 +55,7 @@ class Main {
         set.add(new Artisan(102, "Kumar"));
 
         System.out.println(set);
+
+
     }
 }
